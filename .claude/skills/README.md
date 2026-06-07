@@ -16,4 +16,5 @@ repo. See [`../../CONTRIBUTING.md`](../../CONTRIBUTING.md) for authoring convent
 - **`glaze-recipe-formulation/`** — end-to-end workflow: base recipe → additions → calc
   sanity check → grams batch + mixing & application instructions.
 
-Skills are tracked as GitHub issues until implemented; this index lists the v1.0 set.
+All five v1.0 skills are implemented. Calculation tools live in `glaze-calc/scripts/`
+(run `python3 selftest.py` there for a smoke test).
