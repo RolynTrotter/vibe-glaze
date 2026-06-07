@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "description": "Curated material analyses (oxide weight %) + LOI for common cone-6 porcelain-studio materials. Oxide percentages are as-supplied (LOI is loss on ignition; oxides + LOI ~= 100). Built from primary/public typical analyses (digitalfire material pages, manufacturer data). Treat as TYPICAL values - real lots vary; verify against your supplier's data sheet for critical work.",
+    "source_note": "See digitalfire.com/material/<name> for each. Not derived from Glazy's CC BY-NC-SA dataset.",
+    "fields": "analysis = oxide weight %, LOI = loss on ignition %, aliases = alternate names matched on lookup."
+  },
+
+  "Nepheline Syenite": {"aliases": ["nepheline", "neph sy"], "analysis": {"SiO2": 60.7, "Al2O3": 23.3, "Na2O": 10.0, "K2O": 4.6, "CaO": 0.7, "Fe2O3": 0.1}, "LOI": 0.7, "source": "digitalfire.com/material/nepheline+syenite"},
+  "Custer Feldspar": {"aliases": ["custer", "potash feldspar"], "analysis": {"SiO2": 68.5, "Al2O3": 17.0, "K2O": 10.0, "Na2O": 3.0, "CaO": 0.3, "Fe2O3": 0.1}, "LOI": 0.3, "source": "digitalfire.com/material/custer+feldspar"},
+  "Minspar 200": {"aliases": ["minspar", "soda feldspar"], "analysis": {"SiO2": 67.8, "Al2O3": 19.5, "Na2O": 6.8, "K2O": 4.0, "CaO": 1.6}, "LOI": 0.4, "source": "digitalfire.com/material/soda+feldspar"},
+
+  "Silica": {"aliases": ["quartz", "flint", "silica 325 mesh", "silica 325", "sio2"], "analysis": {"SiO2": 99.5}, "LOI": 0.3, "source": "digitalfire.com/material/silica"},
+
+  "EPK": {"aliases": ["epk kaolin", "kaolin", "china clay"], "analysis": {"SiO2": 46.0, "Al2O3": 38.0, "Fe2O3": 0.5, "TiO2": 0.4, "CaO": 0.2, "MgO": 0.1, "K2O": 0.3, "Na2O": 0.1}, "LOI": 13.9, "source": "digitalfire.com/material/epk"},
+
+  "Whiting": {"aliases": ["calcium carbonate", "caco3", "chalk"], "analysis": {"CaO": 56.0}, "LOI": 44.0, "source": "digitalfire.com/material/whiting"},
+  "Wollastonite": {"aliases": ["calcium silicate", "casio3"], "analysis": {"CaO": 46.25, "SiO2": 51.7, "Al2O3": 0.3, "Fe2O3": 0.3}, "LOI": 1.5, "source": "digitalfire.com/material/wollastonite"},
+  "Dolomite": {"aliases": ["calcium magnesium carbonate"], "analysis": {"CaO": 30.4, "MgO": 21.7}, "LOI": 47.9, "source": "digitalfire.com/material/dolomite"},
+  "Talc": {"aliases": ["magnesium silicate", "steatite"], "analysis": {"MgO": 31.5, "SiO2": 61.5, "CaO": 0.7, "Al2O3": 0.3, "Fe2O3": 0.5}, "LOI": 5.0, "source": "digitalfire.com/material/talc"},
+  "Strontium Carbonate": {"aliases": ["strontium carb", "srco3"], "analysis": {"SrO": 70.2}, "LOI": 29.8, "source": "digitalfire.com/material/strontium+carbonate"},
+
+  "Ferro Frit 3134": {"aliases": ["frit 3134", "3134"], "analysis": {"CaO": 20.1, "B2O3": 23.1, "Na2O": 10.3, "SiO2": 46.5}, "LOI": 0.0, "source": "digitalfire.com/material/ferro+frit+3134"},
+  "Ferro Frit 3124": {"aliases": ["frit 3124", "3124"], "analysis": {"CaO": 13.9, "B2O3": 14.0, "Na2O": 6.3, "K2O": 0.5, "Al2O3": 9.9, "SiO2": 55.4}, "LOI": 0.0, "source": "digitalfire.com/material/ferro+frit+3124"},
+
+  "Zinc Oxide": {"aliases": ["zinc", "zno"], "analysis": {"ZnO": 99.5}, "LOI": 0.5, "source": "digitalfire.com/material/zinc+oxide"},
+  "Tin Oxide": {"aliases": ["tin", "sno2", "stannic oxide"], "analysis": {"SnO2": 99.5}, "LOI": 0.0, "source": "digitalfire.com/material/tin+oxide"},
+  "Titanium Dioxide": {"aliases": ["titanium", "titania", "tio2"], "analysis": {"TiO2": 99.5}, "LOI": 0.0, "source": "digitalfire.com/oxide/tio2"},
+  "Rutile": {"aliases": ["ceramic rutile"], "analysis": {"TiO2": 95.0, "Fe2O3": 1.8, "SiO2": 1.0}, "LOI": 0.5, "source": "digitalfire.com/material/rutile", "note": "Impure iron-bearing titania ore; analysis varies by source."},
+  "Red Iron Oxide": {"aliases": ["rio", "iron oxide", "fe2o3", "hematite"], "analysis": {"Fe2O3": 98.0}, "LOI": 1.0, "source": "digitalfire.com/material/iron+oxide+red"},
+  "Black Iron Oxide": {"aliases": ["bio", "magnetite", "fe3o4"], "analysis": {"Fe2O3": 96.0}, "LOI": 4.0, "source": "digitalfire.com/material/iron+oxide+black", "note": "Fe3O4; treated as an Fe2O3 source for calculation. Coarser/specks vs RIO."},
+
+  "Lithium Carbonate": {"aliases": ["lithium carb", "li2co3"], "analysis": {"Li2O": 40.4}, "LOI": 59.6, "source": "digitalfire.com/material/lithium+carbonate"},
+
+  "Copper Carbonate": {"aliases": ["copper carb", "cuco3"], "analysis": {"CuO": 71.9}, "LOI": 28.1, "source": "digitalfire.com/material/copper+carbonate"},
+  "Cobalt Carbonate": {"aliases": ["cobalt carb", "coco3"], "analysis": {"CoO": 63.0}, "LOI": 37.0, "source": "digitalfire.com/material/cobalt+carbonate"},
+  "Cobalt Oxide": {"aliases": ["co3o4", "cobalt oxide black"], "analysis": {"CoO": 93.0}, "LOI": 7.0, "source": "digitalfire.com/material/cobalt+oxide"},
+  "Chrome Oxide": {"aliases": ["chromium oxide", "cr2o3", "chrome"], "analysis": {"Cr2O3": 99.0}, "LOI": 1.0, "source": "digitalfire.com/material/chrome+oxide"},
+  "Manganese Dioxide": {"aliases": ["manganese", "mno2"], "analysis": {"MnO": 80.7}, "LOI": 19.3, "source": "digitalfire.com/material/manganese+dioxide", "note": "MnO2 reported as MnO equivalent; releases oxygen on firing."},
+  "Nickel Oxide": {"aliases": ["nio", "nickel"], "analysis": {"NiO": 98.0}, "LOI": 2.0, "source": "digitalfire.com/material/nickel+oxide"},
+
+  "Bentonite": {"aliases": ["western bentonite"], "analysis": {"SiO2": 58.0, "Al2O3": 18.0, "Fe2O3": 3.0, "MgO": 2.0, "CaO": 1.0, "Na2O": 2.0}, "LOI": 15.0, "source": "digitalfire.com/material/bentonite", "note": "Suspension additive, typically ~2% of dry batch; raises Al/Si slightly."}
+}

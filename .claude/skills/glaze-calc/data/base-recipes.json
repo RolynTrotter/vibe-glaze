@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "description": "A few well-known Tony Hansen / Digital Fire cone-6 base recipes by code, as starting points for formulation. Amounts are batch percentages (may total slightly over 100). Verify live at digitalfire.com/recipe/<code> before relying on them.",
+    "usage": "Feed 'materials' into umf.py / cte.py, or scale with convert.py batch. Add colorants/opacifiers via 'additions'."
+  },
+
+  "G2926B": {
+    "name": "G2926B - Cone 6 transparent glossy (whiteware/porcelain)",
+    "description": "Fires high-gloss and ultra-clear with low melt mobility. A reliable, balanced cone-6 transparent base; the standard starting point for cone-6 liner and colored glossy glazes.",
+    "cone": 6,
+    "atmosphere": "oxidation",
+    "materials": {
+      "Nepheline Syenite": 18.3,
+      "Ferro Frit 3134": 25.4,
+      "EPK": 19.6,
+      "Wollastonite": 6.9,
+      "Silica": 37.6,
+      "Talc": 2.3
+    },
+    "source": "digitalfire.com/recipe/g2926b"
+  },
+
+  "G2934": {
+    "name": "G2934 - Cone 6 matte (MgO)",
+    "description": "A cone-6 magnesia matte base (silky/dolomite matte family). Matteness comes from MgO, not underfiring. Good for non-functional surfaces; test for cutlery marking/food safety before functional use.",
+    "cone": 6,
+    "atmosphere": "oxidation",
+    "materials": {
+      "Ferro Frit 3124": 60.0,
+      "Dolomite": 23.0,
+      "EPK": 17.0
+    },
+    "source": "digitalfire.com/recipe/g2934",
+    "note": "Amounts are a representative version; confirm exact recipe at the source URL."
+  }
+}
