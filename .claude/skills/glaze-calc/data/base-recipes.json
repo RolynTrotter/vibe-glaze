@@ -32,5 +32,62 @@
     },
     "source": "digitalfire.com/recipe/g2934",
     "note": "Amounts are a representative version; confirm exact recipe at the source URL."
+  },
+
+  "Celadon": {
+    "name": "Cone 6 Celadon (iron)",
+    "description": "A clear, slightly fluid glossy base with 1.5% iron. In OXIDATION (electric) reads pale honey/green-celadon; in SAGGAR/local REDUCTION the iron converts toward FeO and gives the classic cool blue-green celadon. Tuned for fit (CTE ~7.3) and clarity (SiO2:Al2O3 ~10:1). Apply medium-thin over white porcelain; pools darker, breaks lighter on edges.",
+    "cone": 6,
+    "atmosphere": "oxidation or saggar reduction",
+    "materials": {
+      "Nepheline Syenite": 14,
+      "Ferro Frit 3134": 18,
+      "Whiting": 9,
+      "Dolomite": 5,
+      "EPK": 18,
+      "Silica": 34,
+      "Talc": 2
+    },
+    "additions": {
+      "Red Iron Oxide": 1.5
+    },
+    "note": "Original composition for this repo (not a published Hansen code). For a stronger green-blue use 1-2% RIO; for a darker 'northern' celadon push 2-3%. Verify fit on your body and test for crazing.",
+    "tuning": "umf.py -> SiO2:Al2O3 ~10:1, fluxes CaO-dominant with some MgO; cte.py ~7.3 x10^-6."
+  },
+
+  "Satin": {
+    "name": "Cone 6 Satin Matte (calcium-magnesium)",
+    "description": "A soft, silky SATIN (between glossy and full matte) from a calcium-magnesium flux balance and a low SiO2:Al2O3 ratio - not from underfiring. Pleasant on functional ware but test for cutlery marking and food safety before functional use. Takes colorants in muted, soft tones.",
+    "cone": 6,
+    "atmosphere": "oxidation",
+    "materials": {
+      "Ferro Frit 3124": 40,
+      "Dolomite": 12,
+      "Wollastonite": 8,
+      "EPK": 22,
+      "Silica": 18
+    },
+    "note": "Original composition for this repo. Matteness comes from high CaO+MgO and SiO2:Al2O3 ~7:1 with low absolute silica; a slow cool deepens the satin. For more matte, raise dolomite/EPK; for more gloss, raise silica.",
+    "tuning": "umf.py -> SiO2:Al2O3 ~7.5:1, MgO ~0.19, R2O:RO ~0.13:0.87; cte.py ~7.3 x10^-6, good fit."
+  },
+
+  "CopperRedSaggarSlip": {
+    "name": "Copper-Red / Flashing Saggar Slip",
+    "type": "slip",
+    "description": "A SLIP (engobe), not a melting glaze - brushed/sprayed thin onto bisque (or burnished leather-hard) porcelain, then SAGGAR-fired with combustibles so local reduction flashes the copper to reds/pinks/iridescent metallics. Results are unpredictable and one-of-a-kind by design, and reoxidize easily. DECORATIVE ONLY - not food safe (copper + porous unmelted slip).",
+    "cone": 6,
+    "atmosphere": "saggar (local reduction required)",
+    "materials": {
+      "EPK": 50,
+      "Silica": 25,
+      "Nepheline Syenite": 15,
+      "Ferro Frit 3124": 10
+    },
+    "additions": {
+      "Copper Carbonate": 4,
+      "Tin Oxide": 1
+    },
+    "note": "Tin helps the copper develop red. UMF/CTE are NOT the right lens for a slip - do not read umf.py/cte.py output as a glaze. Vary copper 2-6% and pack the saggar with sawdust/salt/copper for flashing. See firing-and-atmosphere/saggar-firing.md for loading + SAFETY (CO + copper fumes -> ventilate).",
+    "source": "Composition for this repo; saggar/flashing technique per firing-and-atmosphere skill."
   }
 }
